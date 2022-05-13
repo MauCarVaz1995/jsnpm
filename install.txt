@@ -1,0 +1,30 @@
+### Iniciar un proyecto
+-npm init -y
+
+### Instalar paquetes en un entorno de desarrollo
+- npm install moment
+- npm install date-fns --save-dev
+- npm i date-fns -D
+- npm i moment -S
+
+### Instalar paquetes globales
+- npm install -g nodemon
+- sudo npm install -g node
+
+### Listando los paquetes globales
+- npm list -g --depth 0
+
+### Dependencias opcionales
+- npm install eslint -O
+
+### Simular la instalación de un paquete
+- npm install react --dry-run
+
+### Forzando la instalación de un paquete
+- npm install webpack -f
+
+### Volver a instalar Dependencias
+- npm install
+
+### Instalando una versión específica
+- npm install json-server@0.15.0
