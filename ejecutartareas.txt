@@ -1,0 +1,5 @@
+### Correr un script
+- npm run deploy
+
+### Ejecutar un proyecto
+-npm start
