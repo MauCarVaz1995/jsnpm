@@ -1,0 +1,11 @@
+### Auditar el proyecto para encontrar vulnerabilidades
+- npm audit
+
+### Generar documento en json para información mas detallada
+- npm audit --json
+
+### Darle seguimiento a la vulnerabilidades/ actualizarlas
+- npm update eslin-utils --depth 2
+
+### Reparar todos los errores o vulnerabilidades
+- npm audit fix 
