@@ -1,0 +1,17 @@
+### Activar modo verbose de un proyecto
+- npm run build --d
+- npm run build //ver y leer detenidamente, ver las rutas del error
+
+### Eliminar el caché
+- npm cache clean --force
+- npm cache verify //revisar el cache
+
+### Eliminar carpeta
+rm -rf node_modules
+
+### Reinstalar dependencias necesarias
+- npm install
+
+### Paquete para eliminar carpetas para volver a instalar dependencias
+- sudo install -g rimraf //instalando con permisos de administrador
+- rimraf node_modules
