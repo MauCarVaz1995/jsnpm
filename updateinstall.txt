@@ -1,0 +1,20 @@
+### Listar los paquetes que tiene un proyecto
+- npm list
+
+### Ver paquetes desactualizados
+- npm outdate
+
+### Output de un script o proyecto
+- npm outdate -dd
+
+### Actualizar paquete 
+- npm update
+
+### Actualizar paquete en específico
+- npm instal json-server@latest
+
+### Desisntalar los paquetes
+- npm uninstall json-server
+
+### Desinstalar un paquete pero sin sacarlo del package.json
+- npm uninstall webpack --nosave
